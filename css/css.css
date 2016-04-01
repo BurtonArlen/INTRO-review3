@@ -1,12 +1,50 @@
-#topOfForm{
-
+#bodyStyle{
+background-image: url(../img/ping-pong2.jpg);
+background-attachment: fixed;
+background-position: center;
 }
 #tofJumbotron{
-  background-image: url(img/pingPong.jpg);
+  background-image: url(../img/pingPong.jpg);
+  background-position: center;
   font-weight: bolder;
   font-style: italic;
   font-family: monospace;
+  color: #000;
+  text-shadow: 2px 2px #fff;
 }
 .centerUp{
   text-align: center;
+}
+#inputForm{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+button{
+  font-size: 28px;
+  font-style: italic;
+}
+#containerTwo{
+  padding-top: 20px;
+}
+#pongPit{
+  border: solid 5px;
+  border-color: #1a1aff;
+  opacity: 0.8;
+  height: 500px;
+  float: right;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000;
+  text-shadow: 2px 2px #1a1aff;
+  background-color: #fefff7;
+  overflow: auto;
+}
+p#outputList{
+  width: 820px;
+}
+#neatThing{
+  float: left;
+  height: 500px;
 }
