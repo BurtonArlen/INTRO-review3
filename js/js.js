@@ -3,7 +3,9 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-
+$("button#clear").click(function() {
+  $("p#outputList").empty();
+});
 
 // business end
 
@@ -23,10 +25,10 @@ var firstNumber = parseInt($("input#numberOne").val());
     }
     else if ((i%15 !== 0) && (i%5 !== 0) && (i%3 !== 0)) {
       $("p#outputList").append(i + ", ");
-
-
     }
+    if ( (isNaN(firstNumber)) || (firstNumber < 0)){
+    alert("THIS INPUT ONLY ACCEPTS NUMBER VALUES GREATER THAN 0");
   }
-
+}
   });
 });

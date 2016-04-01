@@ -2,6 +2,8 @@
 background-image: url(../img/ping-pong2.jpg);
 background-attachment: fixed;
 background-position: center;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 #tofJumbotron{
   background-image: url(../img/pingPong.jpg);
@@ -37,14 +39,16 @@ button{
   margin-right: auto;
   margin-left: auto;
   color: #000;
-  text-shadow: 2px 2px #1a1aff;
+  text-shadow: 1px 0px #1a1aff;
   background-color: #fefff7;
   overflow: auto;
+  width: 100%;
 }
-p#outputList{
-  width: 820px;
+
 }
-#neatThing{
-  float: left;
-  height: 500px;
+#clear{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100%;
+  padding-right: 100%;
 }
