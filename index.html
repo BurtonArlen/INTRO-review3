@@ -8,17 +8,33 @@
     <script src="js/js.js"></script>
   </head>
   <body>
+    <div class="jumbotron">
+      <h1>Here's a fun thing!</h1>
+      <p>Enter a number, any number, and the PingPonginator will count down from that number repacing key numbers with Ping, Pong, and Pingpong! Can test your pattern recognition and math skills!</p>
+      <h2>Can you find the pattern?</h2>
+    </div>
     <h1></h1>
     <h2></h2>
     <form>
-      <div class="form-group">
+      <div class="form-group" id="inputNum">
         <label for="numberOne">Enter a number to PingPongerate!</label>
         <input id="numberOne" class="form-control" type="text">
       </div>
       <button type="submit" class="btn btn-default">PingPongerize Me!</button>
     </form>
-    <p id="outputList">
+    <div class="container">
 
-    </p>
+      <div class="col-md-9" id="pongPit">
+
+        <p id="outputList">
+
+        </p>
+
+    </div>
+    <div class="col-md-3" id="neatThing">
+
+    </div>
+
+  </div>
   </body>
 </html>
